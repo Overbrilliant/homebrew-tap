@@ -1,26 +1,26 @@
 class Ob1 < Formula
   desc "CLI coding agent for Overbrilliant"
   homepage "https://github.com/Overbrilliant/ob-1"
-  version "0.3.3"
+  version "0.3.4"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Overbrilliant/ob-1/releases/download/v0.3.3/ob1-darwin-arm64.tar.gz"
-      sha256 "0040733d04460405e091eeb2db9b3855ce3f673fe074bb36ced909ac9da1a0d4"
+      url "https://github.com/Overbrilliant/ob-1/releases/download/v0.3.4/ob1-darwin-arm64.tar.gz"
+      sha256 "390f79238874f29b316cccdbf18c3ef943645163fff1905e0f1533daa85f2706"
     else
-      url "https://github.com/Overbrilliant/ob-1/releases/download/v0.3.3/ob1-darwin-x64.tar.gz"
-      sha256 "0a0d23f6832377146dbcd1417356d7467d687f02cb7be9be80ff0b26aefe4d6e"
+      url "https://github.com/Overbrilliant/ob-1/releases/download/v0.3.4/ob1-darwin-x64.tar.gz"
+      sha256 "4d3d42f02bc8472333c59acb5b222973bcb142fafea25cfbfdc2bd8b91747720"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Overbrilliant/ob-1/releases/download/v0.3.3/ob1-linux-arm64.tar.gz"
-      sha256 "bbcc8df3f403acd34c24396e3c518161419329dbbb4e9ef777be0e37848745ed"
+      url "https://github.com/Overbrilliant/ob-1/releases/download/v0.3.4/ob1-linux-arm64.tar.gz"
+      sha256 "49ac2307c0c213ff7093783059e07fa74dc51022f1cb739f8971e2d51b1f5af3"
     else
-      url "https://github.com/Overbrilliant/ob-1/releases/download/v0.3.3/ob1-linux-x64.tar.gz"
-      sha256 "3679cbc5c4008ce3cc563928353663f5faf9c6612577772224a879a009d211f2"
+      url "https://github.com/Overbrilliant/ob-1/releases/download/v0.3.4/ob1-linux-x64.tar.gz"
+      sha256 "da445d1edd691ea8eac094586ddf783d986f58119bf91c28af5f4a96b935c125"
     end
   end
 
